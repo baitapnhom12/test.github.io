@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doitac</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+.menu{
+    width: auto;
+    height: 40px;
+    background-color: green;
+    margin: 0px auto;
+  }
+.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+}
+.root>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 12px 0px 12px;
+    line-height: 40px;
+    display: block;
+}
+.root>li>a:hover{
+    background-color: greenyellow;
+   
+    transform: ease-in .20s;
+    font-weight: bold;
+}
+.submenu{
+    width: 200px;
+    background-color:green ;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu li {list-style: none;
+}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    border: 1px solid #c0c0c0;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.root>li:hover ul.submenu {
+    display: block;
+    background-color: green;
+    color:black;
+    transform: ease-in 0.20s;
+}
+.submenu li a:hover{
+    background-color: yellow;
+    color: black;
+    transform: ease-in 0.20s;
+}
+.noidung1{
+    margin: 0px auto;
+    width: 100%;
+    padding: 0px 15px 0px 15px; 
+}
+
+    </style>
+</head>
+<body>
+    <img src="F:/baitaplon/anh/banner.png" alt="" height="302" width="1280">
+    <div class="menu">
+       <ul class="root">
+           <li><a href="./index.html" >TRANG CHỦ</a></li>
+           <li><a href="./gioithieu.html" >GIỚI THIỆU</a>
+            <ul class="submenu">
+                <li><a href="./lichsuphattrien.html" >Lịch sử phát triển</a></li>
+                <li><a href="./doitac.html" >Đối Tác</a></li>
+               
+                           
+            </ul>
+        </li>                
+           <li><a href="" >DANH MỤC SẢN PHẨM</a>
+        <ul class="submenu">
+            <li><a href="./iphone.html" >Iphone</a></li>
+            <li><a href="" >SamSung</a></li>
+            <li><a href="" >Realme</a></li>
+            <li><a href="" >Xiaomi MI</a></li>
+            <li><a href="" >Oppo</a></li>
+                       
+        </ul>
+    </li>
+    
+    <li><a href="" >PHỤ KIỆN </a>
+        <ul class="submenu">
+            <li><a href="./tainghe.html" >Tai Nghe</a></li>
+            <li><a href="./loa.html" >Loa JBL</a></li>
+            <li><a href="./manhinh.html" >Màn Hình</a></li>
+            <li><a href="./sac.html" >Sạc</a></li>       
+        </ul>
+    </li>              
+    <li><a href="./lienhe.html" >LIÊN HỆ</a>  
+        <li><a>Tìm kiếm <input type="search"  name="timkiem" placeholder="Bạn tìm gì?"> </a></li>
+        <li><a href="./dangnhap.html"><input type="button" name="dangnhap" value="Đăng nhập"></a></li>
+        <li><a href="./dangki.html"><input type="button" name="dangki" value="Đăng ký"></a></li>
+       </ul>
+    </div>
+    <div class="noidung1" >
+        <table class="noidung1" border="1px" cellspanding="0" CellSpacing="0" align="center" >
+            <tr>
+                <td><a href="https://www.thegioididong.com/"><img src="https://toplist.vn/images/800px/the-gioi-di-dong-641077.jpg" alt="" width="280" height="250"></a></td>
+                <td><a href="https://fptshop.com.vn"><img src="https://toplist.vn/images/800px/fpt-shop-641084.jpg" alt="" width="250" height="280"></a></td>
+                <td><a href=" www.nguyenkim.com"><img src="https://toplist.vn/images/800px/cong-ty-co-phan-thuong-mai-nguyen-kim-641109.jpg" alt="" width="280" height="250"></a></td>
+                <td><a href=" https://didongthongminh.vn/"><img src="https://toplist.vn/images/800px/httpwwwdidongthongminhvn-25417.jpg" alt="" width="280" height="250"></a></td>
+                
+            </tr>
+            <tr>
+                <td><a href="https://viettelstore.vn/"><img src="https://toplist.vn/images/800px/cong-ty-thuong-mai-va-xuat-nhap-khau-viettel-641093.jpg" alt="" width="280" height="250"></a></td>
+                <td><a href="https://www.mainguyen.vn"><img src="https://toplist.vn/images/800px/htttpwwwmainguyenvn-25438.jpg" alt="" width="280" height="250"></a></td>
+                <td><a href="https://cellphones.com.vn/"><img src="https://toplist.vn/images/800px/cellphones-641221.jpg" alt="" width="280" height="250"></a></td>
+                <td><a href=" https://hc.com.vn"><img src="https://toplist.vn/images/800px/cong-ty-tnhh-thuong-mai-vhc-641233.jpg" alt="" width="280" height="250"></a></td>
+            </tr>
+        </table>
+
+    </div>
+</body>    
+</html>
